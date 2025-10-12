@@ -37,25 +37,51 @@ This project demonstrates a robust, iterative approach to model development. Key
 
 ## How to Run This Project
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/your-project-repo.git
-cd your-project-repo
-```
+This project was developed in a Google Colab notebook to leverage their free GPU resources.
 
-### 2. Set Up the Environment
-Create a virtual environment and install the required packages.
-```bash
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
+### Option 1: Run in Google Colab (Recommended)
 
-### 3. Download the Data
-The data for this project is from the [INSERT KAGGLE COMPETITION LINK HERE] competition. Please download the dataset and place the `train/` and `test/` folders inside a `data/` directory at the root of this project.
+This is the easiest way to replicate the results.
 
-### 4. Train the Model
-Execute the main training script to start training the final model architecture.
-```bash
-python src/train.py
-```
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-project-repo/blob/main/ML_Project.ipynb)
+
+**Prerequisites:**
+- A Google Account.
+- A Kaggle account and your `kaggle.json` API token. You can get this from your Kaggle account page (`Account` -> `API` -> `Create New API Token`).
+
+**Instructions:**
+1.  Click the "Open in Colab" badge above.
+2.  When the notebook is open, run the first few cells.
+3.  You will be prompted to upload your `kaggle.json` file. Please select it from your computer.
+4.  Once the Kaggle API is set up, you can execute the rest of the cells sequentially to download the data, train the model, and see the results.
+
+### Option 2: Run on a Local Machine
+
+**Prerequisites:**
+- Python 3.8+
+- Git
+
+**Instructions:**
+1.  **Clone the Repository:**
+    ```bash
+    git clone https://github.com/your-username/your-project-repo.git
+    cd your-project-repo
+    ```
+
+2.  **Set Up the Environment:**
+    Create a virtual environment and install the required packages.
+    ```bash
+    python -m venv venv
+    source venv/bin/activate
+    pip install -r requirements.txt
+    ```
+
+3.  **Download the Data:**
+    - The data for this project is from the [INSERT KAGGLE COMPETITION LINK HERE] competition.
+    - Download the data manually and place the contents (`train/`, `test/`, `validation/`, `.csv` files) inside a `deepfake_data/` directory at the root of this project.
+
+4.  **Launch Jupyter and Run the Notebook:**
+    ```bash
+    jupyter notebook
+    ```
+    In the browser window that opens, navigate to and open the `ML_Project.ipynb` file. You can then run the cells of the notebook. (You may need to comment out the Google Drive mounting and file upload cells).
