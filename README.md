@@ -10,7 +10,7 @@ This repository contains a machine learning project showcasing the systematic de
 
 ## Final Model Performance
 
-The final model, achieved in the sixth iteration, successfully resolved severe training instability by implementing a learning rate decay schedule. This stable and optimized architecture served as the foundation for an ensemble of models, which produced the final, competition-winning result.
+The final model, achieved in the sixth iteration, successfully resolved severe training instability by implementing a learning rate decay schedule. This stable and optimized architecture served as the foundation for an ensemble of models, which produced the final result.
 
 ![Final Model Training Curves](images/attempt6_loss.png)
 
