@@ -12,7 +12,7 @@ This repository contains a machine learning project showcasing the systematic de
 
 The final model, achieved in the sixth iteration, successfully resolved severe training instability by implementing a learning rate decay schedule. This stable and optimized architecture served as the foundation for an ensemble of models, which produced the final, competition-winning result.
 
-![Final Model Training Curves](images/attempt6_loss.png)
+![Final Model Training Curves](ML6 (90.9%)/loss_plot.png)
 
 ---
 
