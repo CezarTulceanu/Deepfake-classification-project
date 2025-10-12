@@ -77,7 +77,7 @@ This is the easiest way to replicate the results.
     ```
 
 3.  **Download the Data:**
-    - The data for this project is from the [INSERT KAGGLE COMPETITION LINK HERE] competition.
+    - The data for this project is from the [Unibuc Deepfake Classification Competition](https://www.kaggle.com/competitions/deepfake-classification-unibuc).
     - Download the data manually and place the contents (`train/`, `test/`, `validation/`, `.csv` files) inside a `deepfake_data/` directory at the root of this project.
 
 4.  **Launch Jupyter and Run the Notebook:**
