@@ -39,7 +39,7 @@ This project demonstrates a robust, iterative approach to model development. Key
 
 This project was developed in a Google Colab notebook to leverage their free GPU resources.
 
-### Option 1: Run in Google Colab (Recommended)
+### Run in Google Colab (Recommended)
 
 This is the easiest way to replicate the results.
 
@@ -55,33 +55,3 @@ This is the easiest way to replicate the results.
 3.  You will be prompted to upload your `kaggle.json` file. Please select it from your computer.
 4.  Once the Kaggle API is set up, you can execute the rest of the cells sequentially to download the data, train the model, and see the results.
 
-### Option 2: Run on a Local Machine
-
-**Prerequisites:**
-- Python 3.8+
-- Git
-
-**Instructions:**
-1.  **Clone the Repository:**
-    ```bash
-    git clone https://github.com/your-username/your-project-repo.git
-    cd your-project-repo
-    ```
-
-2.  **Set Up the Environment:**
-    Create a virtual environment and install the required packages.
-    ```bash
-    python -m venv venv
-    source venv/bin/activate
-    pip install -r requirements.txt
-    ```
-
-3.  **Download the Data:**
-    - The data for this project is from the [Unibuc Deepfake Classification Competition](https://www.kaggle.com/competitions/deepfake-classification-unibuc).
-    - Download the data manually and place the contents (`train/`, `test/`, `validation/`, `.csv` files) inside a `deepfake_data/` directory at the root of this project.
-
-4.  **Launch Jupyter and Run the Notebook:**
-    ```bash
-    jupyter notebook
-    ```
-    In the browser window that opens, navigate to and open the `ML_Project.ipynb` file. You can then run the cells of the notebook. (You may need to comment out the Google Drive mounting and file upload cells).
