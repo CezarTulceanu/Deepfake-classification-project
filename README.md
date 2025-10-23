@@ -1,6 +1,6 @@
 # Iterative CNN Development for Image Classification: From 78% to 90.9% Accuracy
 
-This repository contains a machine learning project showcasing the systematic development of a high-performance image classification model. The project was undertaken as a demonstration of my practical ML skills and problem-solving abilities for the Google internship application.
+This repository contains a machine learning project showcasing the systematic development of a high-performance image classification model. The project was undertaken as a demonstration of my practical ML skills and problem-solving abilities.
 
 **The complete methodology, analysis, and results are documented in the full technical report.**
 
