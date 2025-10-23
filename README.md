@@ -39,7 +39,7 @@ This project demonstrates a robust, iterative approach to model development. Key
 
 This project was developed in a Google Colab notebook to leverage their free GPU resources.
 
-### Run in Google Colab (Recommended)
+### Run in Google Colab
 
 This is the easiest way to replicate the results.
 
